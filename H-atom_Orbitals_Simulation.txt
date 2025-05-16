@@ -1,0 +1,15 @@
+# Hydrogen Orbit
+# Sets units
+N = 50 					#Resolution: N = Length of each 3D axis which creates the number of voxels (pixels)^3.
+hbar = 1.054571817*1e-34 		#hbar: 1.054 571 817x10-34 J s
+mE = 9.10953794449800*1e-31 		#mE-mass electron: 9.109537944498001e-31 kg
+e0 = 8.85419 * 1e-12 			#C^2/J*m permativity of free space
+eC = 1.60218*1e-19			#C elementary charge - Coulmbs 
+a = (4*np.pi*e0* hbar**2)/(mE*(eC**2))	#Bohr radius 
+k = 8.99*1e9				#N*m^2/C^2 - Coulombs Constant
+L = a*90 				#Length of axis in real space
+
+# Set Quantum Numbers
+n = 2 
+l = 1 
+m = 1
