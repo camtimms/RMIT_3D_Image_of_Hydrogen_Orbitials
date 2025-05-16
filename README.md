@@ -54,10 +54,8 @@ All simulation parameters live in `H-atom_Orbitals_Simulation.txt`. If that file
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/<your‑username>/H-atom_Orbitals_Simulation.git
+git clone https://github.com/camtimms/RMIT_3D_Image_of_Hydrogen_Orbitials.git
 ```
-cd H-atom_Orbitals_Simulation
-
 2. Edit H-atom_Orbitals_Simulation.txt to set your desired parameters (or skip to use defaults).
 
 3. Run the simulation:
@@ -97,3 +95,10 @@ python simulation.py
   ```
 
 On a 20³ grid, the plot completes in ≈15 s on a modern desktop. Increase N for higher resolution at the cost of computation time (scales ~N³).
+
+## ⚖️ License
+
+This code is released under the MIT License. Feel free to reuse and modify.
+
+Happy simulating!
+— Campbell Timms
